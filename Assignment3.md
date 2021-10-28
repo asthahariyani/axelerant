@@ -33,25 +33,25 @@ $ sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch
 $ sudo /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -m ec2 -a status
 ```
 - Below are the results while running the commands and setting up our cloud watch agent
-![agent_start](https://github.com/asthahariyani/axelerant/blob/main/Images/agent_start.png)
-![agent_staus](https://github.com/asthahariyani/axelerant/blob/main/Images/agent_status.png)
+![agent_start](https://github.com/asthahariyani/axelerant/blob/main/Images/agent_start.PNG)
+![agent_staus](https://github.com/asthahariyani/axelerant/blob/main/Images/agent_status.PNG)
 
 - Belo is the agent config file obtained at the end through wizard setup
-![agent_config](https://github.com/asthahariyani/axelerant/blob/main/Images/agent_config.png)
+![agent_config](https://github.com/asthahariyani/axelerant/blob/main/Images/agent_config.PNG)
 
 - As seen below all the required metrics now show up in Cloud watch
-![ec2_metrics](https://github.com/asthahariyani/axelerant/blob/main/Images/ec2_metrics.png)
+![ec2_metrics](https://github.com/asthahariyani/axelerant/blob/main/Images/ec2_metrics.PNG)
 
 - Now we will set up alarm corresponding to the metrics, as shown below
 For eg. we will select CPU Utilisation metrics
-![cpu_utilisationmetric](https://github.com/asthahariyani/axelerant/blob/main/Images/metric.png)
+![cpu_utilisationmetric](https://github.com/asthahariyani/axelerant/blob/main/Images/metric.PNG)
 
 - Now we will specify the threshold 
-![specify_threshold](https://github.com/asthahariyani/axelerant/blob/main/Images/metric_condition.png)
+![specify_threshold](https://github.com/asthahariyani/axelerant/blob/main/Images/metric_condition.PNG)
 
 - Now we will specify the SNS Topic for notification, which has email id as subscription. Other subscriptions can also be added.
 ![sns_alert](Images/ec2_resource_Alert)
-![sns_confirmation](https://github.com/asthahariyani/axelerant/blob/main/Images/sns.png)
+![sns_confirmation](https://github.com/asthahariyani/axelerant/blob/main/Images/sns.PNG)
 
 - When the threshold exceeded for CPU utilisation we received an email like the following:
-![email_alert](https://github.com/asthahariyani/axelerant/blob/main/Images/alert_mail.png)
+![email_alert](https://github.com/asthahariyani/axelerant/blob/main/Images/alert_mail.PNG)

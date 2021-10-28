@@ -20,14 +20,14 @@ A list of technologies used within the project:
 
 ## Installation
 Below is the snippet of privaterepository made in order for deployment
-![private_repo](Images/private_repo.png)
+![private_repo](https://github.com/asthahariyani/axelerant/blob/main/Images/private_repo.PNG)
 
 Herokuyaml file is used for deployment and running of the application. It also has failure handling scenarios.
-Please see elow image of the workflow logs.
+Please see below image of the workflow logs.
 ![workflow_logs](https://github.com/asthahariyani/axelerant/blob/main/Images/workflow_logs.PNG)
 
 We can see our app deployed and returning the required output by going on to the website https://axelerant.herokuapp.com/
-![heroku_app](Images/heroku_app.png)
+![heroku_app](https://github.com/asthahariyani/axelerant/blob/main/Images/heroku_app.PNG)
 
 Below is the code for deployment and failure handling of the application:
 ```
