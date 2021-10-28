@@ -55,7 +55,7 @@ For eg. we will select CPU Utilisation metrics
 
 - Now we will specify the SNS Topic for notification, which has email id as subscription. Other subscriptions can also be added.
 
-![sns_alert](https://github.com/asthahariyani/axelerant/blob/main/Images/ec2_resource_Alert)
+![sns_alert](https://github.com/asthahariyani/axelerant/blob/main/Images/ec2_resource_Alert.PNG)
 
 ![sns_confirmation](https://github.com/asthahariyani/axelerant/blob/main/Images/sns.PNG)
 
