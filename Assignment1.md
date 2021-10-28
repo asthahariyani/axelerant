@@ -7,7 +7,6 @@ In this project we have deployed a Flask based application in Docker container u
 2. [Technologies](#technologies)
 3. [How to run](#how-to-run)
 4. [Solution Description](#solution-description)
-5. [FAQs](#faqs)
 
 ## General Info
 ***

@@ -22,7 +22,7 @@ Below is the snippet of private repository made in order for deployment
 
 We are using heroku for deployment. The repo contains a Procfile which is used to run the server on heroku.
 
-We are using a [github workflow](https://github.com/asthahariyani/axelerant/blob/main/.github/workflows/heroku.yml) to automatically deploy the app on Heroku server on every commit. Note that the workflow provided in this repo is just for reference. It also has failure handling scenarios.
+We are using a [github workflow](https://github.com/asthahariyani/axelerant/blob/main/.github/workflows/heroku.yml) to automatically deploy the app on Heroku server on every commit. It also has failure handling scenarios.
 Please see below image of the workflow logs.
 ![workflow_logs](https://github.com/asthahariyani/axelerant/blob/main/Images/workflow_logs.PNG)
 
