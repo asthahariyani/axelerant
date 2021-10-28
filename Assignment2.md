@@ -24,7 +24,7 @@ Below is the snippet of privaterepository made in order for deployment
 
 Herokuyaml file is used for deployment and running of the application. It also has failure handling scenarios.
 Please see elow image of the workflow logs.
-![workflow_logs](Images/workflow_logs.png)
+![workflow_logs](https://github.com/asthahariyani/axelerant/blob/main/Images/workflow_logs.PNG)
 
 We can see our app deployed and returning the required output by going on to the website https://axelerant.herokuapp.com/
 ![heroku_app](Images/heroku_app.png)
