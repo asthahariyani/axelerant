@@ -3,7 +3,7 @@ name: Deploy
 on:
   push:
     branches:
-      - master
+      - heroku
 
 jobs:
   build:
@@ -17,3 +17,4 @@ jobs:
           heroku_email: "asthahariyani16@gmail.com"
           healthcheck: "https://axelerant.herokuapp.com/"
           rollbackonhealthcheckfailed: true
+          appdir: app
